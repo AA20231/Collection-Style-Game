@@ -16,8 +16,6 @@ function preload(){
   georgieImg = loadImage("assets/georgieImg.png");
   mandyImg = loadImage("assets/mandyImg.png");
 
-  /*font = loadFont('/assets/static/font.ttf')*/
-
 }
 
 /* SETUP RUNS ONCE */
@@ -25,7 +23,7 @@ function setup() {
   createCanvas(400,400);
   screen = 0;
   level = 1;
-  /*textFont(font);*/
+  
   character = meemawImg
 
   backgroundImg.resize(150,0);
@@ -423,7 +421,7 @@ function mousePressed(){
     createCanvas(400,400);
     screen = 0;
     level = 1;
-    /*textFont(font);*/
+    
     
     backgroundImg.resize(150,0);
     meemawImg.resize(70,0);
@@ -443,7 +441,7 @@ function mousePressed(){
     createCanvas(400,400);
     screen = 0;
     level = 1;
-    /*textFont(font);*/
+    
 
     backgroundImg.resize(150,0);
     meemawImg.resize(70,0);
